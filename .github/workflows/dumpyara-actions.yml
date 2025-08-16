@@ -23,7 +23,7 @@ jobs:
           curl -L -O https://raw.githubusercontent.com/AndroidDumps/dumpyara/refs/heads/master/setup.sh
           bash setup.sh
 
-      - name: Run Dumpyara 🚀🏎️
+      - name: Run Dumpyara 🚀💣
         run: |
           curl -L -O https://raw.githubusercontent.com/AndroidDumps/dumpyara/refs/heads/master/dumpyara.sh
           bash dumpyara.sh "${{ inputs.URL }}"
